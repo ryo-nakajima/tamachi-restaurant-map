@@ -20,3 +20,30 @@ page2.png
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Generated HTML maps
+*.html
+
+# Cache / intermediate data
+data/geocode_cache.json
+data/tabelog_*.json
+data/ramen_2016_complete.csv
+data/opening_date_cache.json
+
+# Pin detection results
+map_*_pins.json
+map_*_2024.png
+
+# Old coordinate data
+ramen_2016_coords.csv
+
+# Generated figures
+figures_jirou/
+gyuudon_price.png
+
+# Source data (managed in undergrad-io-2026-data repo)
+jirou_prices_tidy_long.csv
+gyudon_chain_standard_bowl_price_changes_2000_2026.csv
+
+# Backups
+*.bak
